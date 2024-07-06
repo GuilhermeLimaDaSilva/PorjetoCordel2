@@ -52,4 +52,72 @@ header a:hover{
     
 }
 
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-family: var(--fonte2);
+    font-size: 1.4em;
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.img{
+    background-color: blueviolet;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.356);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.img > p{
+    background-color: rgba(0, 0, 0, 0.534);
+    width: 400px;
+    padding-left: 8px;
+    text-shadow: 1.3px 1.3px 0px rgba(0, 0, 0, 0.37);
+    background-size: cover;
+}
+
+section#imgm1{
+    background-image: url(imagens/view-city-street-night.jpg);
+    background-position: right center;
+}
+
+section#imgm2{
+    background-image: url(imagens/beautiful-shot-top-mountain.jpg);
+    background-position: center center;
+    
+}
+
+section#imgm3{
+    background-image: url(imagens/hands-chef-cutting-vegetables-his-kitchen.jpg);
+    background-position: center center;
+    
+}
+
+
+section#imgm4{
+    background-image: url(imagens/iluminated-tunnel.jpg);
+    background-position: center center;
+    
+}
+
+
+section#imgm5{
+    background-image: url(imagens/low-angle-shot-mesmerizing-starry-sky.jpg);
+    background-position: center center;
+    
+}
+
+
+
+
+
 
